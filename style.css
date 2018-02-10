@@ -3,7 +3,7 @@ nav ul {
 }
 
 nav ul li{display: inline;
-border: 1px solid grey;
+border: 0px solid grey;
 padding: 0 5px ;
 margin:  0 10px          }
 
@@ -11,6 +11,8 @@ margin:  0 10px          }
 span{
   float:right;
 }
+
+
 
 .icon{
   height: 30px;
@@ -21,4 +23,21 @@ p {
   background-color:#bcf4f0;
   margin: 0 auto;
   width: 75%;
+}
+
+.project-image {
+  margin: 0 10px;
+  width: 200px;
+  height: 200px;
+  opacity: 0.75;
+  transition: box-shadow 0.5s, opacity 0.5s;
+}
+
+.project-image:hover {
+  box-shadow: 0 0 5px 5px #555555;
+  opacity: 1.0;
+}
+
+iframe{
+
 }
